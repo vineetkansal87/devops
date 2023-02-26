@@ -5,3 +5,4 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 {
 	"exec-opts": ["native.cgroupdriver=systemd"]
 }
+echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
